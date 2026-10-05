@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="formulario">
+        <form method="POST">
+            <h1 class="verde"></h1>
+
+            <h2 class="verde">Regístrate</h2>
+            <p id="mensaje"></p>
+            <div class="entrada">
+                <img src="imagenes/user.png" alt="">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido" required>
+            </div>
+            <div class="entrada">
+                <img src="imagenes/sobre.png" alt="" srcset="">
+                <input type="email" name="correo" id="correo" placeholder="Correo electrónico" required>
+            </div>
+            <div class="entrada">
+                <img src="imagenes/clave.png" alt="" srcset="">
+                <input type="password" name="clave" id="clave" placeholder="Contraseña" required>
+            </div>
+            <div class="entrada">
+                <img src="imagenes/clave.png" alt="" srcset="">
+                <input type="password" name="repetirclave" id="repetirclave" placeholder="Repite tu contraseña">
+            </div>
+            <p>
+                <input type="checkbox" required>
+                Acepto las condiciones de uso y política de privacidad
+            </p>
+            <p>
+                ¿Ya tienes una cuenta? <a href="#" class="login">Iniciar sesión</a>
+            </p>
+            <p>
+                <button id="btnEnviar" class="grabar">Enviar</button>
+            </p>
+        </form>
+    </section>
+    
+</body>
+</html>
